@@ -1,0 +1,18 @@
+@use '../base/variables' as v;
+.site-footer {
+    background-color: v.$rosa;
+    padding: 1rem;
+    p {
+        margin: 0;
+        color: v.$blanco;
+        text-align: center;
+        a {
+            color: v.$blanco;
+            font-size: 2rem;
+            line-height: 1.5;
+            &:hover {
+                color: v.$amarillo
+            }
+        }
+    }
+}
